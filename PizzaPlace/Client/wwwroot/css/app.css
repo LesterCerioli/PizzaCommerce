@@ -181,3 +181,15 @@ app {
         display: block;
     }
 }
+
+.form-control.invalid {
+    outline: 0;
+    border-left: 5px solid #a94442; /* red */
+    border-radius: 5px;
+}
+
+.form-control.valid.modified {
+    outline: 0;
+    border-left: 5px solid #42A948; /* green */
+    border-radius: 5px;
+}
